@@ -28,20 +28,48 @@
 
 3. Copie os conteúdos do `lab3` para a pasta `lab4`, que servirão de base para este laboratório.
 
-5. Neste laboratório irá criar mais umas página. Atualize o menu de todas as páginas HTML existentes com um novo link: tecnologia.html.
+5. Neste laboratório irá criar mais umas página. Atualize o menu de todas as páginas HTML existentes com um novo link: html5-css.html.
 
 
-# 2. Página HTML5 & CSS
+# 2. Nova estrutura das páginas
 
-1. Crie uma nova página HTML `tecnologia.html` que tenha o mesmo cabeçalho das restantes.
-2. Insira um elemento h3 com a palavra Tecnologias Usadas.
+1. Todas as suas páginas HTML deverão ser reestruturadas com elementos semânticos HTML5. No `body` deverá ter:
+    1. dentro de um elemento `header` deverá incluir o cabeçalho, com o titulo do site e fotografia 
+    2. o menu de navegação deverá estar dentro do elemento `nav`
+    3. o conteúdo dentro de um elemento `main`. Dentro do `main`, use elementos `section` para dividir o conteúdo em secções (cada elemento `section` deverá ter um elemento `hx` e parágrafos `p`).
+    5. um novo elemento `footer` com o seu nome, numero, universidade, e ano, tudo numa linha.
+
+Se visualizar no seu navegador as páginas HTML, verá que estes elementos nada mudaram em termos visuais. No entanto, estes permitirão aplicar estilos. Neste primeiro laboratório aplicaráa esta estrutura estilizações simples. No entanto, no lab5 esta estrutura permitirá criar layouts dinâmicos, configurados pelo CSS.
+
+# 3. Página HTML5 & CSS
+
+1. Crie uma nova página HTML `html5-css.html` que tenha o mesmo cabeçalho das restantes.
+2. Insira um elemento `h3` com a palavra Tecnologias Usadas.
 3. Crie uma subsecção intitulada HTML 5 onde deverá incluir:
-    1. uma frase introdutóia sobre o HTML5
-    2. um tabela com todos os elementos HTML5 apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar onde utilizou.
+    1. uma frase introdutória sobre o HTML5
+    2. um tabela com todos os elementos HTML5 apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar onde utilizou. Utilize os marcadores associados ao elemento `table` (`caption`, `thead`, `tbody`, `tfoot`).
 4. Crie uma subsecção intitulada CSS onde deverá incluir:
     1. uma frase introdutória sobre CSS 
-    2. um tabela com todos os seletores CSS apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.
-    3. um tabela com todos os combinadores de seletores apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou. 
+    2. um tabela com todos os seletores CSS apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.  Utilize os marcadores associados ao elemento `table` (`caption`, `thead`, `tbody`, `tfoot`).
+    3. um tabela com todos os combinadores de seletores apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.  Utilize os marcadores associados ao elemento `table` (`caption`, `thead`, `tbody`, `tfoot`).
+
+# 4. Estilização com CSS
+
+1. crie o ficheiro estilos.css onde deverá utilizar todos os tipos seletores apresentados na aula pelo menos em 3 sitios diferentes. 
+2. Deverá utilizar pelo menos três composições de selectores (descendentes, filhos `>`, adjacentes `~`, imediatamente adjacentes `+`, agrupados `,`). 
+3. Para o menu, deverá utilizar os selectores de pseudo-classe `link`, `visited`, `hover`, `active` para configurar os links utilizando apenas as cores da palete, assim como os selectores `before` e `after` no menu quando passar com o rato por cima. 
+4. 
+
+poema
+tabelas
+
+os selectores de pseudo-classe first-child, last-child, nth-child(), nth-last-child(), only-child, nth-of-type, first-of-type, last-of-type, oly-of-type, assim como os pseudo-elementos first-letter, first-line, explorando cores de fonte e fundos diferentes.
+c)	Na tabela dos seletores usados, configurada a partir do ficheiro estilos.css, introduza variedades de cor nas linhas pares e impares (não use div nem class).
+d)	Deverá recorrer aos 6 seletores de atributo =, ~=, |=, ^=, $= e *= para configurar as cores e larguras das molduras em redor das imagens da página interesses.
+e)	Na página de introdução e interesses, deverá utilizar os pseudo-elementos first-letter, first-line.
+
+
+
 
 
 # 3. Página Comentários
