@@ -3,15 +3,14 @@
 # Programação Web - Laboratório 4: Integração de elementos semânticos HTML5 no meu website e estilização com seletores e propriedades CSS 
 
 ## Objetivo
-* Neste laboratório formatará o website criado no Laboratório 3.
-* O objetivo deste laboratório não é estético, é experimentar o maior numero de elementos HTML5 assim como seletores e propriedades.
-* Este laboratório deverá ser concluido antes da sua aula prática da semana de 15 de março. Este será avaliado nessa aula. 
+* O objetivo deste laboratório é experimentar o maior numero de elementos HTML5 assim como seletores e propriedades noa conteúdos do laboratório 3.
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. Contém todos os detalhes para a criação do website. 
 * Se tiver alguma dúvida, recorra ao [Moodle](https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119), onde no Programa existem links para os slides de cada tópico, assim como vídeos das aulas com apontadores para os vários tópicos apresentados. Estes contêm todos os conhecimentos que precisa para realizar este laboratório.
-
+* Este laboratório deverá ser concluido antes da sua aula prática da semana de 15 de março. Este será avaliado nessa aula. 
+* 
 ## Pré-requisitos
 * Deverá ter feito o [lab3](https://github.com/ULHT-PW-2020-21/pw-lab3).
 
