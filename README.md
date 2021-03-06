@@ -3,9 +3,10 @@
 # Programação Web - Laboratório 4: Integração de elementos semânticos HTML5 no meu website e estilização com seletores e propriedades CSS 
 
 ## Objetivo
-* Neste laboratório formatará o website criado no Laboratório 3
-* Irá estruturar o conteúdo com etiquetas semânticas de HTML5
-* irá formatár o website usando CSS, explorando os seus seletores e propriedades.
+* Neste laboratório formatará o website criado no Laboratório 3.
+* O objetivo deste laboratório não é estético, é experimentar o maior numero de elementos HTML5 assim como seletores e propriedades.
+* Irá estruturar o conteúdo com etiquetas semânticas de HTML5.
+* Irá depois estilizar o website usando o maior número de seletores e propriedades CSS. 
 * Este laboratório deverá ser concluido antes da sua aula prática da semana de 8 de março. Este será avaliado nessa aula. 
 
 ## Recomendações
@@ -39,95 +40,53 @@
     3. o conteúdo dentro de um elemento `main`. Dentro do `main`, use elementos `section` para dividir o conteúdo em secções (cada elemento `section` deverá ter um elemento `hx` e parágrafos `p`).
     5. um novo elemento `footer` com o seu nome, numero, universidade, e ano, tudo numa linha.
 
+Nas tabelas, utilize os elementos `caption`, `thead`, `tbody`, `tfoot`, e nas imagens recorra a elemento `figure` e `figcaption`.
+
 Se visualizar no seu navegador as páginas HTML, verá que estes elementos nada mudaram em termos visuais. No entanto, estes permitirão aplicar estilos. Neste primeiro laboratório aplicaráa esta estrutura estilizações simples. No entanto, no lab5 esta estrutura permitirá criar layouts dinâmicos, configurados pelo CSS.
 
 # 3. Página HTML5 & CSS
 
 1. Crie uma nova página HTML `html5-css.html` que tenha o mesmo cabeçalho das restantes.
-2. Insira um elemento `h3` com a palavra Tecnologias Usadas.
+2. Insira um elemento `h3` com o título HTML5 e CSS.
 3. Crie uma subsecção intitulada HTML 5 onde deverá incluir:
     1. uma frase introdutória sobre o HTML5
-    2. um tabela com todos os elementos HTML5 apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar onde utilizou. Utilize os marcadores associados ao elemento `table` (`caption`, `thead`, `tbody`, `tfoot`).
+    2. um tabela com :
+       * na primeira coluna todos os elementos HTML5 apresentados na aula, um por linha. 
+       * na segunda coluna, para cada elemento HTML5 deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google)
+       * na terceira coluna deverá incluir uma breve descrição a explicar onde utilizou. 
 4. Crie uma subsecção intitulada CSS onde deverá incluir:
     1. uma frase introdutória sobre CSS 
-    2. um tabela com todos os seletores CSS apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.  Utilize os marcadores associados ao elemento `table` (`caption`, `thead`, `tbody`, `tfoot`).
-    3. um tabela com todos os combinadores de seletores apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.  Utilize os marcadores associados ao elemento `table` (`caption`, `thead`, `tbody`, `tfoot`).
+    2. uma tabela com todos os tipos de seletores CSS, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou. 
+    3. uma tabela com todos os combinadores de seletores apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.
 
 # 4. Estilização com CSS
 
-1. crie o ficheiro estilos.css onde deverá utilizar todos os tipos seletores apresentados na aula pelo menos em 3 sitios diferentes. 
-2. Deverá utilizar pelo menos três composições de selectores (descendentes, filhos `>`, adjacentes `~`, imediatamente adjacentes `+`, agrupados `,`). 
-3. Para o menu, deverá utilizar os selectores de pseudo-classe `link`, `visited`, `hover`, `active` para configurar os links utilizando apenas as cores da palete, assim como os selectores `before` e `after` no menu quando passar com o rato por cima. 
-4. 
+Para a definição dos estilos será usado um único ficheiro estilos.css, que guardará todos os estilos usados nas páginas. Em cada ficheiro HTML deverá existir um link para este ficheiro, de modo a permitir usar os estilos.
 
-poema
-tabelas
+1. crie o ficheiro estilos.css 
+2. deverá utilizar todos os tipos seletores apresentados na aula em pelo menos 3 sitios diferentes. 
+3. Deverá utilizar pelo menos três composições de selectores (descendentes, filhos `>`, adjacentes `~`, imediatamente adjacentes `+`, agrupados `,`). 
+4. Para o menu, deverá utilizar os selectores de pseudo-classe `link`, `visited`, `hover`, `active` para configurar os links utilizando apenas as cores da palete, assim como os selectores `before` e `after` no menu quando passar com o rato por cima. 
+5. Escolha e use uma Google font para o seu website.
+6. Configure a cor de background do seu website, assim como de alguns elementos HTML5 usando seletores adequados. 
+7. Em particular nas tabelas e no poema os selectores de pseudo-classe assim como os pseudo-elementos, explorando cores de fonte e fundos diferentes. Por exemplo, introduza variedades de cor nas linhas pares e impares das tabelas.
+8. Introduza icones em redor dos titulos de cada página recorrendo às propriedades `:before` e `:after`.
+9. Deverá recorrer aos 6 seletores de atributo `=`, `~=`, `|=`, `^=`, `$=` e `*=` para configurar as cores e larguras das molduras em redor das imagens da página interesses.
+10. No texto descritivo, use os pseudo-elementos first-letter, first-line para estilizá-lo.
+11. nos seus formulários, remova o uso de quebras de linha `br` para colocar inputs em linhas diferentes. Em vez disso, transforme os elementos `input` em blocos através da propriedade `display`. 
+12. No formulário de comentário, atualize a informação relativa ao elemento escondido, que deverá indicar que o comentário é referente ao lab 4.
+13. estilize as molduras (border) das imagens e iframes usando seletores, sem recorrer a classes.
 
-os selectores de pseudo-classe first-child, last-child, nth-child(), nth-last-child(), only-child, nth-of-type, first-of-type, last-of-type, oly-of-type, assim como os pseudo-elementos first-letter, first-line, explorando cores de fonte e fundos diferentes.
-c)	Na tabela dos seletores usados, configurada a partir do ficheiro estilos.css, introduza variedades de cor nas linhas pares e impares (não use div nem class).
-d)	Deverá recorrer aos 6 seletores de atributo =, ~=, |=, ^=, $= e *= para configurar as cores e larguras das molduras em redor das imagens da página interesses.
-e)	Na página de introdução e interesses, deverá utilizar os pseudo-elementos first-letter, first-line.
+# 7. Multimedia
+
+Na secção de multimédia insira mais algumas imagens, aplicando a técnica de sobreposição de imagens e texto umas por cima das outras, recorrendo a posições absolutas e relativas. Brinque também com a propriedade sticky e fixed, em imagens a colocar no background.
 
 
-
-
-
-# 3. Página Comentários
-
-1. Crie uma nova página HTML `comentarios.html` que tenha o mesmo cabeçalho das restantes.
-2. Insira um elemento h3 com a palavra Comentários.
-3. Esta página servirá para recolher opiniões sobre o seu website assim como ideias de coisas a melhorar.
-4. Crie um formulário para recolher opiniões sobre o seu website, avaliando 10 critérios. Listam-se em baixo alguns padrões intelectuais do pensamento crítico: 
-    * clareza (compreensível, em que o significado pode ser identificado sem que haja confusão ou ambiguidade.)
-    * rigor (livre de erros)
-    * precisão (exato, segundo o nível necessário do pormenor)
-    * profundidade (contém complexidades e múltiplas inter-relações)
-    * amplitude (que abrange diferentes aspectos, pontos de vista, pespectivas)
-    * lógica (em que as partes fazem sentido num todo, sem contradições: faz sentido no conjunto, provém de evidências)
-    * significância (focado no importante, não trivial)
-    * originalidade (criativo e original)
-    Para tal, utilize elementos `input` com atributos `range`, `checkbox` e `radio`. Deverá igualmente ter um elemento `textarea` que permita submeter sugestões de melhoria.
-6. Inclua um elemento escondido que identifica que se trata da opinião relativa ao website do laboratório 3. De facto, os laboratórios seguintes trarão várias melhorias ao seu website que resultarãm em comentários ainda melhores. 
-7. Quando desenvolver o *back-end*, será capaz de processar estes dados introduzidos por
-utilizadores e será capaz de fazer uma análise do seu website assim como uma visão crítica deste. 
-
-# 4. Desenhos SVG
-
-1. Altere a wordcloud que criou por forma a que seja um SVG embutido no HTML com a wordcloud:
-   * inclua a wordcloud que criou no Laboratório 2 (com o elemento `image`). 
-   * Sobreponha na imagem da wordcloud elementos transparentes sobre agumas palavras, com hiperlinks para páginas do seu website (abra a imagem no Paint para extrair as coordenadas dos vértices dos poçígonos sobre cada palavra). 
-   * Deverá usar uma área default que cubra todo a imagem (restantes palavras para as quais não inseriu links específicos), e que remete para a introdução do seu website. Garanta que esta se encontra "por baixo" dos restantes elementos.
-
-2. Crie um menu usando um SVG embutido no HTML ao estilo de uma wordcloud:
-   * aplique efeitos a cada uma das palavras rodadas ou encurvadas, diferentes tamanhos, formas, cores, etc.
-   * cada palavra deverá conter um elemento `animate` que deverá especificar como muda no tempo um determinado atributo. Explore o atributo `begin` também.
-   * cada palavra deverá ter um hiperlink para a respetiva página.
-   * coloque esta imagem no final de cada página do seu website.
-
-3. Inspirado nalgum aspecto da cidade que escolheu, faça um desenho criativo embutido no HTML utilizando a maior diversidade de formas que consiga e utilizando os elementos animate, animateMotion e animateTransform. Coloque-o na secção Multimedia, especificando numa legenda os aspectos que o inspiraram para tal.
-
-4. Inspirado nalgum aspecto da cidade que escolheu, utilize um editor SVG (por exemplo (Boxy-svg)[https://boxy-svg.com/app]) para criar um ficheiro SVG, explorando as ferramentas disponíveis. Coloque-o na secção Multimedia, especificando numa legenda os aspectos que o inspiraram para tal.
-
-5. Na página `local.html` insira um SVG com o mapa SVG da localidade escolhida:
-    * procure um mapa SVG da sua cidade (aqui)[https://commons.wikimedia.org/wiki/Category:SVG_maps_of_freguesias_in_Portugal] ou na Wikimedia Commons (se a cidade não for em Portugal).
-    * insira no mapa pontos de interesse, objetos com hiperlinks que abram imagens sobre essa zona. 
-    * Veja o [slide](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580) 50 da aula sobre [html](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580) que explia como fazer isso.
-    * deverá criar um objeto iframe por baixo do mapa com um nome (`name`)
-    * espicifique como target de cada hiperlink do mapa o nome da iframe, de forma a que a imagem abra dentro da iframe.
-
-# 5. Multimedia
-
-Na página de multimedia altere também a forma como abrem as fotografias grandes.
-1. Veja o [slide](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580) 50 da aula sobre [html](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.1-html.pdf?time=1614518293580).
-2. insira um elemento iframe com a dimensão das fotografias (largura  800 pixels). Atribua um nome à iframe.
-3. no target do hiperlink de cada imagem pequena especifique o nome da iframe.
-4. quando clicar numa imagem pequena, a foto grande abrirá dentro da iframe. 
-
-# 6. Referências
+# 8. Referências
 
 Quanto maior for o número de referências no seu website para outros websites, maior a relevância que o website ganhará assim como a visibilidade nos motores de busca. Coloque uma referência no final de um parágrafo de texto que tenha extraído de uma fonte online, assim como na legenda de uma fotografia. Pode usar a notação `[1]` colocando um hiperlink para a página de onde foi extraída informação. 
 
-# 7. Submissão
+# 9. Submissão
 
 1. Verifique que todos os links do seu website funcionam devidamente.
 2. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
@@ -137,10 +96,10 @@ Quanto maior for o número de referências no seu website para outros websites, 
         * `git commit –m "submissão laboratório 3"`
         * `git push`
 3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
-4. Verifique que o seu website online fucnioa corretamente, mostra todas as imagens e os hiperlinks funcionam devidamente.
+4. Verifique que o seu website online funciona corretamente, mostra todas as imagens e os hiperlinks funcionam devidamente.
 5. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
     * link da sua aplicação Heroku
     * link do seu repositório privado no GitHub
     * adicione os docentes de PW como membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
 
-Esperamos que tenha gostado de aplicar os conhecimentos de HTML e de ter feito um website &#127760;!
+Esperamos que tenha gostado de aplicar os conhecimentos de HTML5 e CSS!
