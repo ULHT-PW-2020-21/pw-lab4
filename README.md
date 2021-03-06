@@ -5,14 +5,12 @@
 ## Objetivo
 * Neste laboratório formatará o website criado no Laboratório 3.
 * O objetivo deste laboratório não é estético, é experimentar o maior numero de elementos HTML5 assim como seletores e propriedades.
-* Irá estruturar o conteúdo com etiquetas semânticas de HTML5.
-* Irá depois estilizar o website usando o maior número de seletores e propriedades CSS. 
-* Este laboratório deverá ser concluido antes da sua aula prática da semana de 8 de março. Este será avaliado nessa aula. 
+* Este laboratório deverá ser concluido antes da sua aula prática da semana de 15 de março. Este será avaliado nessa aula. 
 
 ## Recomendações
 * Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. Contém todos os detalhes para a criação do website. 
-* Se tiver alguma dúvida, recorra ao [Moodle](https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119), onde no Programa existem links para os slides de cada tópico, assim cmoo vídeos, contendo todos os conhecimentos que precisa para realizar este laboratório.
+* Se tiver alguma dúvida, recorra ao [Moodle](https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119), onde no Programa existem links para os slides de cada tópico, assim como vídeos das aulas com apontadores para os vários tópicos apresentados. Estes contêm todos os conhecimentos que precisa para realizar este laboratório.
 
 ## Pré-requisitos
 * Deverá ter feito o [lab3](https://github.com/ULHT-PW-2020-21/pw-lab3).
