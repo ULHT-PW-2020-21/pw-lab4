@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
  
-# Programação Web - Laboratório 4: Incluindo HTML5 e CSS no meu website  
+# Programação Web - Laboratório 4: Integração de elementos semânticos HTML5 no meu website e estilização com seletores e propriedades CSS 
 
 ## Objetivo
 * Neste laboratório formatará o website criado no Laboratório 3
@@ -22,51 +22,27 @@
     2. escolha a pasta onde quer colocar o repositório (navegando com o comando `cd nome-de-pasta` para entrar numa determinada pasta)
     3. escreva o comando `git clone https://github/seuusername/pw-labs-nomeapelido-numero` (hiperlink do seu repositório, com o seu username do GitHub e nome do repositório).
 
-2. Crie a pasta `lab3`. 
+2. Crie a pasta `lab4`. 
 
-3. Atualize o `index.html` do seu website, incluindo agora um link para o Laboratório 3.
+3. Atualize o `index.html` da sua aplicação, incluindo na lista o nome deste laboratório com um link para lab4/index.html.
 
-3. Copie os conteúdos do `lab2` para a pasta `lab3`, que servirão de base para este laboratório.
-4. Neste laboratório irá criar mais duas páginas. Atualize o menu de todas as páginas HTML existentes com dois novos links: Quizz (na página `quizz.html`) e Comentários (na página `comentarios.html`). Coloque-os antes da página Home.
+3. Copie os conteúdos do `lab3` para a pasta `lab4`, que servirão de base para este laboratório.
+
+5. Neste laboratório irá criar mais umas página. Atualize o menu de todas as páginas HTML existentes com um novo link: tecnologia.html.
 
 
-# 2. Página com Quizz
+# 2. Página HTML5 & CSS
 
-1. Crie uma nova página HTML `quizz.html` que tenha o mesmo cabeçalho das restantes.
-2. Insira um elemento h3 com a palavra Quizz.
-3. Esta página irá ter um formulário com um quizz sobre a cidade. Deverá fazer perguntas de vários tipos sobre a cidade, o formulário sendo enviado para um endereço de email (quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta). 
-4. Deverá ter uma primeira área (elemento `fieldset`) para inserção de dados pessoais:
-   * Nome
-   * apelido
-   * email
+1. Crie uma nova página HTML `tecnologia.html` que tenha o mesmo cabeçalho das restantes.
+2. Insira um elemento h3 com a palavra Tecnologias Usadas.
+3. Crie uma subsecção intitulada HTML 5 onde deverá incluir:
+    1. uma frase introdutóia sobre o HTML5
+    2. um tabela com todos os elementos HTML5 apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar onde utilizou.
+4. Crie uma subsecção intitulada CSS onde deverá incluir:
+    1. uma frase introdutória sobre CSS 
+    2. um tabela com todos os seletores CSS apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou.
+    3. um tabela com todos os combinadores de seletores apresentados na aula, um por linha. Na segunda coluna deverá indicar se o usou ou não nalguma página, recorrendo a um icon adequado (use os icones Google), e na terceira coluna deverá incluir um breve comentário a explicar como este funciona e onde o utilizou. 
 
-5. Noutro(s) elemento(s) `fieldset` crie um quiz sobre a cidade, explorando de forma imaginativa os elementos `input`, `select`, `textarea`, `datalist`, `label`, `fieldset`, `output`. * Deverá usar todos os seguintes tipos de input (atributos `type`):
-   * `text`
-   * `radio`
-   * `checkbox`
-   * `date`
-   * `image`
-   * `color`
-   * `number`
-   * `range`
-
-6. Na totalidade dos elementos que utilizar deverá garantir que utiliza pelo menos uma vez cada um dos seguintes atributos de input:
-   * `value`
-   * `placeholder`
-   * `autocomplete`
-   * `size`
-   * `maxlength`
-   * `form`
-   * `multiple`
-   * `autofocus`
-   * `required`
-   * `step`
-   * `output`
-
-5. Inclua um elemento do tipo `submit` para submeter o seu formulário:
-   * No atributo `method`especifique o método `post`
-   * o atributo `action` deverá ter como valor um endero de email. Assim, receberá o quizz no seu email.
-   * Quando desenvolvermos o back-end, poderá processar os dados enviados e apresentar ao utilizador uma resposta.
 
 # 3. Página Comentários
 
