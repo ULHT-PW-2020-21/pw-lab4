@@ -35,9 +35,9 @@
     1. dentro de um elemento `header` deverá incluir o cabeçalho, com o titulo do site e fotografia 
     2. o menu de navegação deverá estar dentro do elemento `nav`
     3. o conteúdo dentro de um elemento `main`. Dentro do `main`, use elementos `section` para dividir o conteúdo em secções (cada elemento `section` deverá ter um elemento `hx` e parágrafos `p`).
-    5. um novo elemento `footer` com o seu nome, numero, universidade, e ano, tudo numa linha.
-
-Nas tabelas, utilize os elementos `caption`, `thead`, `tbody`, `tfoot`, e nas imagens recorra a elemento `figure` e `figcaption`.
+    4. um novo elemento `footer` com o seu nome, numero, universidade, e ano, tudo numa linha.
+2. Nas tabelas, utilize os elementos `caption`, `thead`, `tbody`, `tfoot`.
+3. Nas imagens recorra a elemento `figure` e `figcaption`, tendo neste ultimo um elemento `details` para mostrar/esconder mais detalhes sobre a imagem.
 
 Se visualizar no seu navegador as páginas HTML, verá que estes elementos nada mudaram em termos visuais. No entanto, estes permitirão aplicar estilos. Neste primeiro laboratório aplicaráa esta estrutura estilizações simples. No entanto, no lab5 esta estrutura permitirá criar layouts dinâmicos, configurados pelo CSS.
 
@@ -76,7 +76,8 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
 
 # 7. Multimedia
 
-Na secção de multimédia insira mais algumas imagens, aplicando a técnica de sobreposição de imagens e texto umas por cima das outras, recorrendo a posições absolutas e relativas. Brinque também com a propriedade sticky e fixed, em imagens a colocar no background.
+1. Na secção de multimédia insira mais algumas imagens, aplicando a técnica de sobreposição de imagens e texto umas por cima das outras, recorrendo a posições absolutas e relativas. 
+2. Brinque também com a propriedade sticky e fixed, em imagens a colocar no background.
 
 
 # 8. Referências
