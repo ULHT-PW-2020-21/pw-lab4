@@ -63,11 +63,10 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
 1. crie o ficheiro estilos.css 
 2. deverá utilizar todos os tipos seletores apresentados na aula em pelo menos 3 sitios diferentes. 
 3. Deverá utilizar pelo menos três composições de selectores (descendentes, filhos `>`, adjacentes `~`, imediatamente adjacentes `+`, agrupados `,`). 
-4. Para o menu, deverá utilizar os selectores de pseudo-classe `link`, `visited`, `hover`, `active` para configurar os links utilizando apenas as cores da palete, assim como os selectores `before` e `after` no menu quando passar com o rato por cima. 
+4. Para o texto do menu, deverá utilizar os selectores de pseudo-classe `link`, `visited`, `hover`, `active` para configurar os links utilizando apenas as cores da palete, assim como os selectores `before` e `after` no menu quando passar com o rato por cima. Inclua, antes de cada palavra do menu, um icon adequado, usando ícones Google, Awesome Font ou Bootstrap. 
 5. Escolha e use uma Google font para o seu website.
 6. Configure a cor de background do seu website, assim como de alguns elementos HTML5 usando seletores adequados. 
 7. Em particular nas tabelas e no poema os selectores de pseudo-classe assim como os pseudo-elementos, explorando cores de fonte e fundos diferentes. Por exemplo, introduza variedades de cor nas linhas pares e impares das tabelas.
-8. Introduza icones em redor dos titulos de cada página recorrendo às propriedades `:before` e `:after`.
 9. Deverá recorrer aos 6 seletores de atributo `=`, `~=`, `|=`, `^=`, `$=` e `*=` para configurar as cores e larguras das molduras em redor das imagens da página interesses.
 10. No texto descritivo, use os pseudo-elementos first-letter, first-line para estilizá-lo.
 11. nos seus formulários, remova o uso de quebras de linha `br` para colocar inputs em linhas diferentes. Em vez disso, transforme os elementos `input` em blocos através da propriedade `display`. 
