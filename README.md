@@ -7,7 +7,7 @@
 
 ## Pré-requisitos
 * Deverá ter feito o [lab3](https://github.com/ULHT-PW-2020-21/pw-lab3).
-* <span style="color:red;">Veja o video sobre [propriedades CSS](https://educast.fccn.pt/vod/clips/2ea2z4vajw/html5.html?locale=en) e consulte os respetivos [slides](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.6-propriedades-css.pdf) </span>.
+* 🔴 Veja o video sobre [propriedades CSS](https://educast.fccn.pt/vod/clips/2ea2z4vajw/html5.html?locale=en) e consulte os respetivos [slides](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.6-propriedades-css.pdf). É material extra À aula teórica desta semana que precisam de saber para realizar este laboratório 🔴.
 
 
 ## Recomendações
