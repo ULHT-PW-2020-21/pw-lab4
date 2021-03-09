@@ -89,15 +89,16 @@ Quanto maior for o número de referências no seu website para outros websites, 
 # 9. Submissão
 
 1. Verifique que todos os links do seu website funcionam devidamente.
-2. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
+2. Inclua um ficheiro README.md com o link para a sua palicação no Heroku.
+3. Carregue a sua pasta no seu repositório Github através dos seguintes passos:
     1.  abra o processador de comandos e posicione-se dentro da pasta do seu repositório (`pw-labs-nomeapelido-numero`).
     2.  escreva as seguintes instruções:
         * `git add *`
         * `git commit –m "submissão laboratório 3"`
         * `git push`
-3. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
-4. Verifique que o seu website online funciona corretamente, mostra todas as imagens e os hiperlinks funcionam devidamente.
-5. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
+4. Sincronize o GitHub com o Heroku tal como fez no [lab1](https://github.com/ULHT-PW-2020-21/pw-lab1). Deverá ir ao Heroku e, em Deploy, fazer deploy branch, de forma a colocar disponível na cloud os novos conteúdos criados. 
+5. Verifique que o seu website online funciona corretamente, mostra todas as imagens e os hiperlinks funcionam devidamente.
+6. No seguinte [ficheiro](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) garanta que esteja:
     * link da sua aplicação Heroku
     * link do seu repositório privado no GitHub
     * adicione os docentes de PW como membros do seu repositório, que têm como usernames no GitHub: luciostuder, logdarkmatter, rfgsantos.
