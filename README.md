@@ -78,7 +78,7 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
 
 # 7. Multimedia
 
-1. Na secção de multimédia insira mais algumas imagens, aplicando a técnica de sobreposição de imagens e texto umas por cima das outras, recorrendo a posições absolutas e relativas. 
+1. Na página de multimédia insira mais algumas imagens, aplicando a técnica de sobreposição de imagens e texto umas por cima das outras, recorrendo a posições absolutas e relativas. 
 2. Brinque também com a propriedade sticky e fixed, em imagens a colocar no background.
 
 
