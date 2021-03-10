@@ -3,15 +3,15 @@
 # Programação Web - Laboratório 4: Integração de elementos semânticos HTML5 no meu website e estilização com seletores e propriedades CSS 
 
 ## Objetivo
-* O objetivo deste laboratório é experimentar o maior numero de elementos HTML5 assim como seletores e propriedades noa conteúdos do laboratório 3.
+* O objetivo deste laboratório é experimentar os elementos HTML5 assim como seletores e propriedades CSS com base nos conteúdos do laboratório 3.
 
 ## Pré-requisitos
 * Deverá ter feito o [lab3](https://github.com/ULHT-PW-2020-21/pw-lab3).
-* 🔴 Veja o video sobre [propriedades CSS](https://educast.fccn.pt/vod/clips/2ea2z4vajw/html5.html?locale=en) e consulte os respetivos [slides](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.6-propriedades-css.pdf). É material extra À aula teórica desta semana que precisam de saber para realizar este laboratório 🔴.
+* 🔴 Antes de fazer este lab deverá ver o video sobre [propriedades CSS](https://educast.fccn.pt/vod/clips/2ea2z4vajw/html5.html?locale=en); consulte os respetivos [slides](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.6-propriedades-css.pdf). É material extra à aula teórica desta semana que precisam de saber para realizar este laboratório 🔴.
 
 
 ## Recomendações
-* Leia o enunciado todo com atenção antes de o começar a resolver para entender o que fará.
+* Leia primeiro o enunciado todo antes de o começar a resolver, para entender o que fará.
 * Execute com atenção cada passo, certificando-se que implementa todos os detalhes. Contém todos os detalhes para a criação do website. 
 * Se tiver alguma dúvida, consulte os slides sobre [HTML5 e seus elementos semanticos](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.4-html5-e-elementos-semanticos.pdf) e [CSS e seus seletores](https://secure.grupolusofona.pt/ulht/moodle/pluginfile.php/800079/course/section/398731/pw-02.5-css-e-seus-seletores.pdf) para ver como integrar os vários aspectos técnicos que são pedidos. Tem também disponivel o [video da aula](https://educast.fccn.pt/vod/clips/2qr2g6hysf/html5.html?locale=en) com capítulos sobre cada tópico. Estes contêm todos os conhecimentos que precisa para realizar este laboratório.
 * Este laboratório deverá ser concluido antes da sua aula prática da semana de 15 de março. Este será avaliado nessa aula. 
