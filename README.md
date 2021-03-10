@@ -47,8 +47,8 @@ Se visualizar no seu navegador as páginas HTML, verá que estes elementos nada 
 # 3. Página HTML5 & CSS
 
 1. Crie uma nova página HTML `html5-css.html` que tenha o mesmo cabeçalho das restantes.
-2. Insira um elemento `h3` com o título HTML5 e CSS.
-3. Crie uma subsecção intitulada HTML 5 onde deverá incluir:
+2. Insira um elemento `h3` com o título HTML5 e CSS. Esta página terá 3 secções, estruturadas com elementos `section`, onde cada uma terá um breve texto e uma tabela. 
+3. Crie uma secção com o elemento intitulada HTML 5 onde deverá incluir:
     1. uma frase introdutória sobre o HTML5
     2. um tabela com :
        * na primeira coluna todos os elementos HTML5 apresentados na aula, um por linha. 
@@ -79,14 +79,9 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
 # 7. Multimedia
 
 1. Na página de multimédia insira mais algumas imagens, aplicando a técnica de sobreposição de imagens e texto umas por cima das outras, recorrendo a posições absolutas e relativas. 
-2. Brinque também com a propriedade sticky e fixed, em imagens a colocar no background.
+2. Explore também com a propriedade sticky e fixed, em imagens a colocar no background.
 
-
-# 8. Referências
-
-Quanto maior for o número de referências no seu website para outros websites, maior a relevância que o website ganhará assim como a visibilidade nos motores de busca. Coloque uma referência no final de um parágrafo de texto que tenha extraído de uma fonte online, assim como na legenda de uma fotografia. Pode usar a notação `[1]` colocando um hiperlink para a página de onde foi extraída informação. 
-
-# 9. Submissão
+# 8. Submissão
 
 1. Verifique que todos os links do seu website funcionam devidamente.
 2. Inclua um ficheiro README.md com o link para a sua palicação no Heroku.
