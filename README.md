@@ -76,12 +76,12 @@ Para a definição dos estilos será usado um único ficheiro estilos.css, que g
 12. No formulário de comentário, atualize a informação relativa ao elemento escondido, que deverá indicar que o comentário é referente ao lab 4.
 13. estilize as molduras (border) das imagens e iframes usando seletores, sem recorrer a classes.
 
-# 7. Multimedia
+# 5. Multimedia
 
 1. Na página de multimédia insira mais algumas imagens, aplicando a técnica de sobreposição de imagens e texto umas por cima das outras, recorrendo a posições absolutas e relativas. 
 2. Explore também com a propriedade sticky e fixed, em imagens a colocar no background.
 
-# 8. Submissão
+# 6. Submissão
 
 1. Verifique que todos os links do seu website funcionam devidamente.
 2. Inclua um ficheiro README.md com o link para a sua palicação no Heroku.
